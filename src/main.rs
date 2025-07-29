@@ -14,5 +14,5 @@ fn main() {
         }
     };
     println!("Searching for '{}' in directory '{}'...", pattern, args.dir);
-    search::search_dir(&args.dir, &pattern);
+    search::search_dir(&args.dir, &pattern, args.absolute);
 }

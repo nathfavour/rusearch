@@ -32,6 +32,7 @@ Search the current directory recursively for a string:
 | `--pattern, -p`   | Pattern to search for (substring)                        |
 | `--pattern-file`  | File containing pattern to search for                    |
 | `--dir, -d`       | Directory to search (default: current directory)         |
+| `-f, --um`        | Print absolute file paths instead of relative            |
 | `"pattern"`       | (Positional) Shortcut: search for this pattern in `.`    |
 
 > ⚠️ Only one of `--pattern`, `--pattern-file`, or positional `"pattern"` may be provided at a time.
@@ -62,6 +63,8 @@ Each match prints:
 ```
 <file_path>:<line_number>:<line>
 ```
+
+By default, `<file_path>` is relative to the search directory. Use `-f` or `--um` to print absolute paths.
 
 ---
 

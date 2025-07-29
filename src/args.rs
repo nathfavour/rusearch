@@ -22,6 +22,10 @@ pub struct Args {
     #[arg(long, required = false)]
     pub pattern_file: Option<String>,
 
+    /// Print absolute file paths (default: relative)
+    #[arg(short = 'f', long = "um", help = "Print absolute file paths instead of relative")]
+    pub absolute: bool,
+
     /// Shortcut: pattern as a single positional argument
     #[arg(required = false, index = 1, help = "Shortcut: search for this pattern in the current directory recursively if no --pattern or --pattern-file is given")] 
     pub shortcut_pattern: Option<String>,

@@ -3,9 +3,9 @@ name = "rusearch"
 version = "0.1.0"
 edition = "2021"
 description = "A super-fast, parallel, recursive directory search CLI for developers and power users."
-authors = ["Your Name <you@example.com>"]
+authors = ["nathfavour <you@example.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/rusearch"
+repository = "https://github.com/nathfavour/rusearch"
 documentation = "https://docs.rs/rusearch"
 readme = "README.md"
 

@@ -6,7 +6,7 @@ description = "A super-fast, parallel, recursive directory search CLI for develo
 authors = ["nathfavour <you@example.com>"]
 license = "MIT"
 repository = "https://github.com/nathfavour/rusearch"
-documentation = "https://docs.rs/rusearch"
+documentation = "https://nathfavour.github.io/rusearch/"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
